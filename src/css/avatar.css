@@ -1,0 +1,40 @@
+.container-intro {
+  padding-top: 3rem;
+  display: flex;
+  width: 100%;
+}
+
+.left, .right {
+  display: flex;
+  opacity: .8;
+  transition: all .8s ease-in-out;
+}
+
+.left:hover, .right:hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+.role-management, .role-coding {
+  display: inline-block;
+}
+
+.avatar {
+  width: 30%;
+  display: inline-block;
+}
+
+.role-text {
+  display: inline-block;
+}
+
+.title, .description {
+  padding-left: 70px;
+  width: 70%;
+  text-align: justify;
+}
+
+.title {
+  font-size: 3rem;
+}
+

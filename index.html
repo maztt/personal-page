@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>maztt's personal page</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/avatar.css">
   </head>
   <body>
     <header class="header-wrapper">
@@ -43,13 +44,30 @@
           </div>
         </div>
       </div>
-      <img src="./images/maztt.jpeg" alt="maztt user avatar" />
+      <div class="container-intro">
+        
+        <div class="left">
+          <div class="role-management">
+            <h1 class="title">Management</h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quia quo modi. Pariatur, inventore illo veniam nesciunt cumque asperiores similique blanditiis cupiditate vitae esse dolorum aut quae nisi. Maiores, eligendi!</p>
+          </div>
+          <img class="avatar" src="src/images/maztt-left.png" alt="">
+        </div>
+        <div class="right">
+          <img class="avatar" src="src/images/maztt-right.png" alt="">
+          <div class="role-coding">
+            <h1 class="title">Coding</h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptatem omnis fugiat, assumenda totam ex repudiandae dolor optio eaque ab at ratione cumque dignissimos nesciunt facilis quisquam autem debitis minima!</p>
+          </div>
+        </div>
+      </div>
+      <!-- <img src="src/images/maztt.jpeg" alt="maztt user avatar" />
       <h1>Júlio Mazotti</h1>
       <h2>FullStack Dev Rookie</h2>
       <div class="social-media">
         <a href="#">GitHub</a>
         <a href="#">LinkedIn</a>
-      </div>
+      </div> -->
     </header>
     <main class="container">
       <div class="card-container">
@@ -65,8 +83,8 @@
         <div class="card">
           <div class="card-wrapper">
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
-              alt="Logo GitHub"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+            alt="Logo GitHub"
             />
             <p>Veja meus projetos!</p>
           </div>
@@ -76,8 +94,8 @@
         <div class="card">
           <div class="card-wrapper">
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-              alt="Logo LinkedIn"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+            alt="Logo LinkedIn"
             />
             <p>Conheça minha carreira</p>
           </div>
@@ -104,15 +122,15 @@
         </div>
         <div class="card">
           <div class="card-wrapper">
-            <img src="./images/instagram.svg" alt="Logo Instagram" />
+            <img src="./src/images/instagram.svg" alt="Logo Instagram" />
             <p>Um pouco mais sobre mim!</p>
           </div>
         </div>
       </div>
     </main>
     <footer class="footer">
-      Built by maztt - TQI FullStack Development Bootcamp - Digital Innovation
-      One
+      — Built by maztt —
     </footer>
   </body>
-</html>
+  </html>
+
