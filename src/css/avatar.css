@@ -1,8 +1,12 @@
 .container-intro {
   padding-top: 3rem;
   display: flex;
-  width: 100%;
+  width: 80%;
 }
+
+.container-intro .avatar {
+  width: 30%;
+} 
 
 .left, .right {
   display: flex;
@@ -30,6 +34,7 @@
 
 .title, .description {
   padding-left: 70px;
+  padding-top: 50px;
   width: 70%;
   text-align: justify;
 }
