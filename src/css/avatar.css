@@ -1,7 +1,8 @@
-.container-intro {
-  padding-top: 3rem;
+div.container-intro {
   display: flex;
-  width: 80%;
+  margin: auto;
+  /* width: 80%; */
+  padding-top: 3rem;
 }
 
 .container-intro .avatar {
@@ -14,17 +15,27 @@
   transition: all .8s ease-in-out;
 }
 
+.right {
+  display: flex;
+}
+
+.right .role-coding {
+  order: 1;
+}
+
 .left:hover, .right:hover {
   opacity: 1;
   transform: scale(1.02);
 }
 
+
 .role-management, .role-coding {
   display: inline-block;
+  width: 440px;
 }
 
-.avatar {
-  width: 30%;
+.container-intro .avatar {
+  width: 200px;
   display: inline-block;
 }
 
