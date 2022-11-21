@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   animation: backgroundTransition 5s ease-in-out infinite;
+  color: #FFF;
 }
 
 @keyframes backgroundTransition {
@@ -79,12 +80,11 @@ h1 {
   padding: 0;
   display: flex;
   margin: 0 auto;
-  margin-bottom: 1px solid grey;
+  gap: 30px;
 }
 
 #social-media > li {
-  width: 60px;
-  margin-left: 15px;
+  width: 50px;
   display: flex;
   flex-direction: row;
 }
@@ -93,6 +93,10 @@ h1 {
 #social-media > li > a > img {
   width: 100%;
   display: flex;
+}
+
+#navigator {
+  padding: 0;
 }
 
 /* MENU LAYOUT */
@@ -159,6 +163,7 @@ h1 {
 }
 
 .menu-items hr {
+  margin: 50px 0;
   width: 50%;
 }
 
