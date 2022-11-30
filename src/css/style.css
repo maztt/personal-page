@@ -23,6 +23,7 @@
 }
 
 .card-container {
+  margin: 3rem 0 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -32,7 +33,6 @@
 .card {
   height: 300px;
   width: 400px;
-  margin: 3rem 0 0;
   background: linear-gradient(45deg, #b11010, #6b1f20, #462022, #212224);
   background-position: center;
   background-repeat: no-repeat;
@@ -110,8 +110,9 @@
 
 
 .card-wrapper img {
-  height: 40%;
-  width: 40%;
+  height: 80%;
+  width: 80%;
+  border-radius: 15px;
 }
 
 .card:hover {
@@ -123,7 +124,21 @@
   margin-top: 120px;
 }
 
-.btn-load > button {
+.project-description {
+}
+
+.project-info > a {
+  display: flex;
+}
+
+.project-info > a > button {
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px 50px;
+  font-size: 16px;
+}
+
+button {
   padding: 10px 30px;
   border-radius: 15px;
   border: 1px solid transparent;
@@ -133,7 +148,7 @@
   letter-spacing: 2px;
 }
 
-.btn-load > button:hover {
+button:hover {
   cursor: pointer;
   border: 1px solid #6b1f20;
   color: #6b1f20;
@@ -141,7 +156,7 @@
   transition: 1s;
 }
 
-.btn-load > button:active {
+button:active {
   position: relative;
   top: 1px;
 }
@@ -163,3 +178,7 @@
 }
 
 
+
+a {
+  text-decoration: none;
+}
