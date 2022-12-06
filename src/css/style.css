@@ -57,10 +57,11 @@
   text-align: justify;
 }
 
-.card:hover > .card-wrapper {
-  transform: scale(1.2);
-  transition: .4s;
+.card:hover img {
+  transform: scale(1.15);
+  transition: .6s;
 }
+
 
 .project-name {
   color: black;
