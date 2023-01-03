@@ -8,10 +8,6 @@ div.about {
   flex-direction: row;
 }
 
-div.photo img {
-  width: 250px;
-}
-
 div.text {
   padding: 50px;
   border-radius: 5px;
@@ -36,4 +32,9 @@ a {
 a:hover {
   transform: scale(1.2);
   transition: .5s;
+}
+
+h1 {
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
 }
