@@ -1,28 +1,28 @@
-div.container-intro {
+div.container__pitch {
   display: flex;
   margin: auto;
   padding-top: 3rem;
 }
 
-.container-intro .avatar {
+.container__pitch .avatar {
   width: 30%;
 } 
 
-.left, .right {
+.box-left, .box-right {
   display: flex;
   opacity: .8;
   transition: all .8s ease-in-out;
 }
 
-.right {
+.box-right {
   display: flex;
 }
 
-.right .role-coding {
+.box-right .role-coding {
   order: 1;
 }
 
-.left:hover, .right:hover {
+.box-left:hover, .box-right:hover {
   cursor: pointer;
   opacity: 1;
   transform: scale(1.02);
@@ -34,7 +34,7 @@ div.container-intro {
   width: 440px;
 }
 
-.container-intro .avatar {
+.container__pitch .avatar {
   width: 200px;
   display: inline-block;
 }

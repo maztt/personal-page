@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HQ | maztt</title>
-
-    <link rel="stylesheet" href="src/css/style.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/css/styles.css" />
     <link rel="stylesheet" href="src/css/menu.css" />
     <link rel="stylesheet" href="src/css/avatar.css" />
     <link rel="stylesheet" href="src/css/responsive.css" />
-
+    <!-- FONTAWESOME UTILS -->
     <script
       src="https://kit.fontawesome.com/caedf6d103.js"
       crossorigin="anonymous"
     ></script>
+    <!-- JS -->
     <script src="src/js/scripts.js" defer></script>
-
   </head>
   <body>
     <header class="header-wrapper">
       <div class="header">
-        <div class="checkbox-container">
+        <div class="container__menu">
           <div class="checkbox-wrapper">
             <input type="checkbox" id="toggle" />
             <label class="checkbox" for="toggle">
@@ -59,56 +59,58 @@
                   <a href="about.html">About</a>
                 </li>
                 <li>
-                  <a id="option-portfolio" href="index.html#container__projects">Portfolio</a>
+                  <a id="option-portfolio" href="index.html#portfolio"
+                    >Portfolio</a
+                  >
                 </li>
               </ul>
             </nav>
           </div>
         </div>
       </div>
-      <div class="container-intro">
-        <div class="left">
+      <div class="container__pitch">
+        <div class="box-left">
           <div class="role-management">
             <h1 class="title">Management</h1>
             <p class="description">
-              People run organizations. Organizations run the world.
-              Leadership and continuous improvement are basics for any
-              environment. Planning is essential. 
-              Chasing goals is what makes it different.
+              People run organizations. Organizations run the world. Leadership
+              and continuous improvement are basics for any environment.
+              Planning is essential. Chasing goals is what makes it different.
             </p>
           </div>
           <img class="avatar" src="src/images/maztt-left.png" alt="" />
         </div>
-        <div class="right">
+        <div class="box-right">
           <div class="role-coding">
             <h1 class="title">&lt Coding /&gt</h1>
             <p class="description">
               Problems are not a problem for me. I like to take a couple of
               hours figuring out how to solve every kind of situation. Logical
-              thinking and processes are crucial and fun. 
-              I want to give life to something great.
+              thinking and processes are crucial and fun. I want to give life to
+              something great.
             </p>
           </div>
           <img class="avatar" src="src/images/maztt-right.png" alt="" />
         </div>
       </div>
     </header>
-    <main id="container__projects" class="container">
-      <div class="card-container">
-        <div class="card-text">
+    <main id="portfolio" class="container__portfolio">
+      <div class="portfolio__project">
+        <div class="project-info">
           <h2 class="project-name">Monk Urug</h2>
           <p class="project-description">
-            This project meets my personal need for mantras and inspiring phrases to navigate through life's chaos. 
-            They've helped me stay focused, chase my goals, and be more aware. 
-            Why not share this with others who may also benefit from it? Join me on this journey!
+            This project meets my personal need for mantras and inspiring
+            phrases to navigate through life's chaos. They've helped me stay
+            focused, chase my goals, and be more aware. Why not share this with
+            others who may also benefit from it? Join me on this journey!
           </p>
-          <div class="project-info">
+          <div class="project-details">
             <a href="https://github.com/maztt/monk-urug" target="_blank"
               ><button>Details ...</button></a
             >
           </div>
         </div>
-        <div class="card">
+        <div class="project-display">
           <a href="https://maztt.github.io/monk-urug/" target="_blank">
             <div class="card-wrapper">
               <img
@@ -120,36 +122,45 @@
           </a>
         </div>
       </div>
-      <div class="card-container">
-        <div class="card">
+      <div class="portfolio__project">
+        <div class="project-display">
           <a href="https://maztt.github.io/coding-campaign/" target="_blank">
             <div class="card-wrapper">
-              <img src="src/images/cc-v1.jpg" alt="Project Preview" />
+              <img
+                class="project-preview"
+                src="src/images/cc-v1.jpg"
+                alt="Project Preview"
+              />
             </div>
           </a>
         </div>
-        <div class="card-text">
+        <div class="project-info">
           <h2 class="project-name">Coding Campaign</h2>
-          <p>
-            This project connects anime idols with programming to make it less intimidating for beginners. Learn to code with ease by appreciating each language's unique qualities. Think of it as a game with a main story and side-quests. Dive into the wonderful world of programming and have fun!
+          <p class="project-description">
+            This project connects anime idols with programming to make it less
+            intimidating for beginners. Learn to code with ease by appreciating
+            each language's unique qualities. Think of it as a game with a main
+            story and side-quests. Dive into the wonderful world of programming
+            and have fun!
           </p>
-          <div class="project-info">
+          <div class="project-details">
             <a href="https://github.com/maztt/coding-campaign" target="_blank"
               ><button>Details ...</button></a
             >
           </div>
         </div>
       </div>
-      <div class="card-container">
-        <div class="card-text">
+      <div class="portfolio__project">
+        <div class="project-info">
           <h2 class="project-name">Yu Gi Oh! Memory Game</h2>
-          <p>
-            Let's relive the magic of Yu-Gi-Oh! and our favorite characters. 
-            Join me on a trip down memory lane with a thrilling matching memory card game! 
-            Test your skills, challenge your memory, and create new memories to cherish for years to come. 
-            Are you up for the challenge? Let's dive in!
+          <p class="project-description">
+            Let's relive the magic of Yu-Gi-Oh! and our favorite characters.
+            Join me on a trip down memory lane with a thrilling matching memory
+            card game! Test your skills, challenge your memory, and create new
+            memories to cherish for years to come. Are you up for the challenge?
+            Let's dive in!
           </p>
-          <div class="project-info">
+          <div class="project-details">
             <a
               href="https://github.com/maztt/yugioh-memory-game"
               target="_blank"
@@ -157,7 +168,7 @@
             >
           </div>
         </div>
-        <div class="card">
+        <div class="project-display">
           <a href="https://maztt.github.io/yugioh-memory-game/" target="_blank">
             <div class="card-wrapper">
               <img src="src/images/yugioh.jpg" alt="Project Preview" />

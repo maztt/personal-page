@@ -101,7 +101,7 @@ h1 {
 
 /* MENU LAYOUT */
 
-.checkbox-container {
+.container__menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,7 +184,3 @@ h1 {
   color: #6b1f20;
   background-color: transparent;
 }
-
-
-/* ICONS */
- 
