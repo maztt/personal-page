@@ -2,71 +2,71 @@
   { 
     "name": "Condo Share", 
     "description": "Introducing the ultimate home project solution for condo dwellers! Our user-friendly system is the perfect ally for those who need uncommon tools to make their DIY tasks a success. No need to break the bank buying tools when you can borrow them from your friendly neighbors! With our platform, connecting with fellow dwellers is a breeze, saving you time, money, and the hassle of searching for the right equipment. Say goodbye to frustrating hardware store trips and hello to a world of convenience and collaboration.",
-    "repo": "",
-    "site": "",
-    "image": "" 
+    "repo": "https://github.com/maztt/condo-share",
+    "site": "#",
+    "image": "https://imagizer.imageshack.com/v2/1255x642q50/924/FPbPdS.png" 
   },
   { 
     "name": "Hi-Deas", 
     "description": "The world's largest unconventional ideas repository! Here, creativity knows no bounds. It captures and preserves the wildest, most unique concepts often overlooked by the mainstream. Come explore the uncharted territories of innovation and discover hidden gems that could inspire your next big idea.",
     "repo": "https://github.com/maztt/hi-deas",
-    "site": "",
-    "image": "" 
+    "site": "#",
+    "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png" 
   },
   { 
     "name": "Shadow Hero", 
     "description": "Say goodbye to frustrating CSS tweaking with Shadow Hero! Our ultimate solution for efficient shadow customization allows you to explore multiple possibilities in no time. It's not just for shadow customization, but it also guides you through image filtering, eliminating the need for additional software. Say goodbye to tedious trial and error and hello to a seamless design process with Shadow Hero.",
     "repo": "https://github.com/maztt/shadow-hero",
     "site": "https://maztt.github.io/shadow-hero/",
-    "image": "" 
+    "image": "https://imagizer.imageshack.com/v2/1375x699q50/923/bzF7VK.png" 
   },
   { 
     "name": "terminimalist-bank", 
     "description": "Are you tired of clunky, cluttered banking interfaces that leave you feeling overwhelmed and frustrated? Look no further than Terminal Bank, the ultimate solution for tech-savvy individuals who value minimalism and efficiency. With our sleek and streamlined interface, you can quickly and easily manage your finances with just a few simple commands. Whether you're a seasoned software developer or a minimalist at heart, our platform offers a refreshingly simple approach to banking.",
     "repo": "https://github.com/maztt/terminimalist-bank",
-    "site": "",
-    "image": "" 
+    "site": "#",
+    "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png" 
   },
   { 
     "name": "Monk Urug", 
     "description": "This project meets my personal need for mantras and inspiring phrases to navigate through life's chaos. They've helped me stay focused, chase my goals, and be more aware. Why not share this with others who may also benefit from it? Join me on this journey!",
     "repo": "https://github.com/maztt/monk-urug",
     "site": "https://maztt.github.io/monk-urug/",
-    "image": "src/images/monk_urug.jpg" 
+    "image": "https://imagizer.imageshack.com/v2/1375x626q50/923/B5t8jz.jpg" 
   },
   { 
     "name": "Yu Gi Oh! Memory Game", 
     "description": "Let's relive the magic of Yu-Gi-Oh! and our favorite characters. Join me on a trip down memory lane with a thrilling matching memory card game! Test your skills, challenge your memory, and create new memories to cherish for years to come. Are you up for the challenge? Let's dive in!",
     "repo": "https://github.com/maztt/yugioh-memory-game",
     "site": "https://maztt.github.io/yugioh-memory-game/",
-    "image": "src/images/yugioh.jpg" 
+    "image": "https://imagizer.imageshack.com/v2/1375x626q70/923/ZMuBKh.jpg" 
   },
   { 
     "name": "Coding Campaign", 
     "description": "This project connects anime idols with programming to make it less intimidating for beginners. Learn to code with ease by appreciating each language's unique qualities. Think of it as a game with a main story and side-quests. Dive into the wonderful world of programming and have fun!",
     "repo": "https://github.com/maztt/coding-campaign",
     "site": "https://maztt.github.io/coding-campaign/",
-    "image": "src/images/cc-v1.jpg" 
+    "image": "https://imagizer.imageshack.com/v2/1375x627q50/923/6gCm8X.jpg" 
   },
   { 
     "name": "world-cup-winner-2022", 
     "description": "Looking to satisfy your curiosity about which country will claim the prestigious title of 2022 World Cup winner? Look no further than our fun and simple prediction system! Our algorithm takes into FIFA team statistics about ranking performances to determine the most likely contenders for the coveted trophy.",
-    "repo": "",
-    "site": "",
-    "image": "" 
+    "repo": "https://github.com/maztt/world-cup-winner-2022",
+    "site": "#",
+    "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png" 
   },
   { 
   "name": "api-countries-to-excel", 
   "description": "Looking for a simple, yet efficient solution to analyze and organize data from the famous API Countries? Look no further than our project! The algorithm takes the hassle out of data management by reading and modeling API Countries data, then exporting it to an easy-to-read Excel archive.",
-  "repo": "",
-  "site": "",
-  "image": "" 
+  "repo": "https://github.com/maztt/api-countries-to-excel",
+  "site": "#",
+  "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png" 
   },
   { 
     "name": "Courses 'n' Stuff", 
     "description": "Yep! This is a reference to Ghosts 'n' Stuff by deadmau5. Why did I create this space, you ask? Simply put, I'm a lifelong learner, always on the lookout for new ways to challenge myself. With so many exciting opportunities to explore, I needed a place to store everything in one neat and tidy package. A lot of stuff in there.",
     "repo": "https://github.com/maztt/courses-and-stuff",
-    "site": "https://github.com/maztt/courses-and-stuff",
-    "image": "" 
+    "site": "#",
+    "image": "https://imagizer.imageshack.com/v2/1200x644q70/924/OyfXFT.jpg" 
   }  
 ]
