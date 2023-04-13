@@ -46,7 +46,7 @@ function showProjects(startIndex, endIndex, data) {
   }
 }
 
-fetch("./src/js/projects.json")
+fetch("./src/data/projects.json")
   .then(response => response.json())
   .then(data => {
     showProjects(0, projectsToShow, data);
