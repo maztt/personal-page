@@ -21,17 +21,18 @@
 }
 
 .portfolio__project {
-  margin: 3rem 0 0;
+  /* margin: 1rem 0 0; */
+  padding: 3rem 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   width: 90%;
+  border-bottom: 1px dotted #9C9C9C70;
 }
 
 .project-display {
   height: 300px;
   width: 400px;
-  background: linear-gradient(45deg, #b11010, #6b1f20, #462022, #212224);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,6 +41,22 @@
   align-items: center;
   cursor: pointer;
   border-radius: 20px;
+  border: 1px solid #9C9C9C;
+  opacity: .9;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.project-display:hover img {
+  transform: scale(1.07);
+  transition: .3s ease-in-out;
+}
+
+.project-display:hover {
+  transition: .3s ease-in-out;
+  opacity: 1;
+  -webkit-filter: none;
+  filter: none;
 }
 
 .project-info {
@@ -53,15 +70,9 @@
   text-align: justify;
 }
 
-.project-display:hover img {
-  transform: scale(1.15);
-  transition: .6s;
-}
-
-
 .project-name {
   font-family: 'Poppins', sans-serif;
-  font-size: 46px;
+  font-size: 38px;
   color: #232232;
 }
 
@@ -102,21 +113,11 @@
   transition: 0.3s;
 }
 
-.project-display {
-  opacity: .9;
-}
-
-
 .card-wrapper img {
   height: 80%;
   width: 80%;
   border-radius: 15px;
 }
-
-.project-display:hover {
-  opacity: 1;;
-}
-
 
 div.btn-load {
   margin-top: 120px;
@@ -131,9 +132,8 @@ div.btn-load {
 }
 
 .project-details > a > button {
-  margin: auto;
   margin-top: 20px;
-  padding: 5px 50px;
+  padding: 5px 30px;
   font-size: 16px;
 }
 
@@ -160,7 +160,6 @@ button:active {
   top: 1px;
 }
 
-
 /* FOOTER */
 
 footer.footer {
@@ -175,8 +174,6 @@ footer.footer {
   background-size: 400% 400%;
   animation: backgroundTransition 5s ease-in-out infinite;
 }
-
-
 
 a {
   text-decoration: none;
