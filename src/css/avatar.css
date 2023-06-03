@@ -1,51 +1,43 @@
 div.container__pitch {
   display: flex;
   margin: auto;
-  padding-top: 3rem;
+  width: 80%;
+  /* padding-top: 3rem; */
 }
 
 .container__pitch .avatar {
-  width: 30%;
 } 
 
 .box-left, .box-right {
   display: flex;
+  margin: auto;
   opacity: .8;
+  align-items: center;
   transition: all .8s ease-in-out;
 }
 
-.box-right {
-  display: flex;
-}
-
-.box-right .role-coding {
+div.box-right div.role-coding {
   order: 1;
 }
 
-.box-left:hover, .box-right:hover {
+div.box-left:hover, div.box-right:hover {
   cursor: pointer;
   opacity: 1;
   transform: scale(1.02);
 }
 
-
 .role-management, .role-coding {
-  display: inline-block;
-  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 .container__pitch .avatar {
-  width: 200px;
-  display: inline-block;
-}
-
-.role-text {
-  display: inline-block;
+  width: 200px; 
 }
 
 .title, .description {
-  padding-left: 70px;
-  padding-top: 50px;
   width: 70%;
   text-align: center;
 }
