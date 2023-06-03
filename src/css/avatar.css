@@ -47,10 +47,10 @@ div.container__pitch {
   padding-left: 70px;
   padding-top: 50px;
   width: 70%;
-  text-align: justify;
+  text-align: center;
 }
 
 .title {
+  font-family: 'Poppins', sans-serif;
   font-size: 3rem;
 }
-
