@@ -12,7 +12,7 @@ function showProjects(startIndex, endIndex, data) {
     divProjectWrapper.innerHTML = `
       <div class="project-info">
           <h2 class="project-name">
-            ${project.name}
+            ${project.name}<span class="dot">.</span>
           </h2>
           <p class="project-description">
             ${project.description}
