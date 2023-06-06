@@ -1,15 +1,15 @@
 const portfolio = document.getElementById('portfolio')
-const moreBtn = document.getElementById('more-btn')
+const loadProjectsButton = document.getElementById('load-projects-btn')
 
 const projectsToShow = 3
 let currentProjects = projectsToShow
 
 function showProjects(startIndex, endIndex, data) {
   for (let i = startIndex; i < endIndex; i++) {
-    const divProjectWrapper = document.createElement("div")
-    divProjectWrapper.classList.add("portfolio__project")
+    const articleProjectWrapper = document.createElement("article")
+    articleProjectWrapper.classList.add("portfolio__project")
     const project = data[i]
-    divProjectWrapper.innerHTML = `
+    articleProjectWrapper.innerHTML = `
       <div class="project-info">
           <h2 class="project-name">
             ${project.name}<span class="dot">.</span>
@@ -38,11 +38,11 @@ function showProjects(startIndex, endIndex, data) {
     `;
 
     if (i % 2 === 0) {
-      const swapDiv = divProjectWrapper.lastElementChild
-      divProjectWrapper.insertBefore(swapDiv, divProjectWrapper.firstElementChild)
+      const swapDiv = articleProjectWrapper.lastElementChild
+      articleProjectWrapper.insertBefore(swapDiv, articleProjectWrapper.firstElementChild)
     }
     
-    portfolio.insertBefore(divProjectWrapper, moreBtn.parentElement)
+    portfolio.insertBefore(articleProjectWrapper, loadProjectsButton.parentElement)
   }
 }
 
@@ -51,15 +51,15 @@ fetch("./src/data/projects.json")
   .then(data => {
     showProjects(0, projectsToShow, data);
 
-    moreBtn.addEventListener("click", () => {
+    loadProjectsButton.addEventListener("click", () => {
       const startIndex = currentProjects;
       const endIndex = currentProjects + projectsToShow;
       if (startIndex >= data.length) {
-        moreBtn.style.display = "none";
+        loadProjectsButton.style.display = "none";
         return
       }
       if (endIndex >= data.length) {
-        moreBtn.style.display = "none";
+        loadProjectsButton.style.display = "none";
       }
       showProjects(startIndex, endIndex, data);
       currentProjects = endIndex;

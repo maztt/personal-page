@@ -21,86 +21,82 @@
   </head>
   <body>
     <header class="header-wrapper">
-      <div class="header">
-        <div class="container__menu">
-          <div class="checkbox-wrapper">
-            <input type="checkbox" id="toggle" />
-            <label class="checkbox" for="toggle">
-              <div class="trace"></div>
-              <div class="trace"></div>
-              <div class="trace"></div>
-            </label>
-            <nav class="menu-items">
-              <ul id="social-media">
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/juliomasson/"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/maztt" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa-solid fa-blog"></i>
-                  </a>
-                </li>
-              </ul>
-              <hr />
-              <ul id="navigator">
-                <li>
-                  <a id="option-home" href="#">Home</a>
-                </li>
-                <li>
-                  <a href="src/pages/about.html">About</a>
-                </li>
-                <li>
-                  <a id="option-portfolio" href="index.html#portfolio"
-                    >Portfolio</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-      <div class="container__pitch">
-        <div class="box-left">
-          <div class="role-management">
-            <h1 class="title">Management</h1>
-            <p class="description">
+      <aside>
+        <input type="checkbox" id="toggle" />
+        <label class="checkbox" for="toggle">
+          <div class="trace"></div>
+          <div class="trace"></div>
+          <div class="trace"></div>
+        </label>
+        <nav class="menu-items">
+          <ul id="social-media">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/juliomasson/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/maztt" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="Anytime soon: Personal Blog">
+                <i class="fa-solid fa-blog"></i>
+              </a>
+            </li>
+          </ul>
+          <hr />
+          <ul id="navigator">
+            <li>
+              <a id="option-home" href="#">Home</a>
+            </li>
+            <li>
+              <a href="src/pages/about.html">About</a>
+            </li>
+            <li>
+              <a id="option-portfolio" href="index.html#portfolio"
+                >Portfolio</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <section class="container__roles">
+        <section class="role-wrapper-left">
+          <article class="role-management">
+            <h1 class="role-title">Management</h1>
+            <p class="role-description">
               People run organizations. Organizations run the world. Leadership
               and continuous improvement are basics for any environment.
               Planning is essential. Chasing goals is what makes it different.
             </p>
-          </div>
-          <img class="avatar" src="https://imagizer.imageshack.com/v2/240x642q70/c/922/qfG8NP.png" alt="" />
-        </div>
-        <div class="box-right">
-          <div class="role-coding">
-            <h1 class="title">&lt Coding /&gt</h1>
-            <p class="description">
+          </article>
+          <img class="maztt-avatar" src="https://imagizer.imageshack.com/v2/240x642q70/c/922/qfG8NP.png" alt="Júlio Mazotti art right face" />
+        </section>
+        <section class="role-wrapper-right">
+          <article class="role-coding">
+            <h1 class="role-title">&lt Coding /&gt</h1>
+            <p class="role-description">
               Problems are not a problem for me. I like to take a couple of
               hours figuring out how to solve every kind of situation. Logical
               thinking and processes are crucial and fun. I want to give life to
               something great.
             </p>
-          </div>
-          <img class="avatar" src="https://imagizer.imageshack.com/v2/240x642q70/c/924/ME8qD3.png" alt="" />
-        </div>
-      </div>
+          </article>
+          <img class="maztt-avatar" src="https://imagizer.imageshack.com/v2/240x642q70/c/924/ME8qD3.png" alt="Júlio Mazotti art left face" />
+        </section>
+      </section>
     </header>
     <main id="portfolio" class="container__portfolio">
-      <div class="btn-load">
-        <button id="more-btn" title="To Be Updated">More ...</button>
-      </div>
+      <section class="projects">
+        <button id="load-projects-btn">More ...</button>
+      </section>
     </main>
-    <footer class="footer">
+    <footer>
       <p>
         — Built by <a href="https://github.com/maztt">maztt</a> —
       </p>
