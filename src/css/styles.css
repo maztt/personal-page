@@ -10,17 +10,17 @@
 
 /* DEVELOPED PROJECTS SECTION */
 
-.container__portfolio {
+main.container__portfolio {
   width: 80%;
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   margin: 3rem auto;
 }
 
-.portfolio__project {
+article.portfolio__project {
   padding: 3rem 0;
   display: flex;
   align-items: center;
@@ -29,39 +29,39 @@
   border-bottom: 1px dotted #9C9C9C70;
 }
 
-.project-display {
+div.project-display {
   height: 300px;
   width: 400px;
   display: flex;
   align-items: center;
   cursor: pointer;
-  border-radius: 20px;
   border: 1px solid #9C9C9C;
+  border-radius: 20px;
   opacity: .9;
   -webkit-filter: blur(1px);
   filter: blur(1px);
 }
 
-.project-display:hover img {
+div.project-display:hover img {
   transform: scale(1.07);
   transition: .5s ease-in-out;
 }
 
-.project-display:hover {
+div.project-display:hover {
   opacity: 1;
   -webkit-filter: none;
   filter: none;
   transition: .5s;
 }
 
-.project-info {
+div.project-info {
   width: 40%;
   text-align: justify;
   letter-spacing: 1px;
   color: rgb(109, 109, 109);
 }
 
-.project-name {
+h2.project-name {
   font-family: 'Poppins', sans-serif;
   font-size: 2.375rem;
   color: #232232;
@@ -73,26 +73,26 @@ span.dot {
   color: #6b1f20;
 }
 
-.card-wrapper {
+div.card-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.card-wrapper img {
+div.card-wrapper img {
   height: 80%;
   width: 80%;
   border-radius: 15px;
 }
 
-div.btn-load {
+section.projects {
   margin-top: 5rem;
 }
 
-.project-description {
+p.project-description {
   margin-bottom: 2rem;
 }
 
-.project-details > a > button {
+div.project-details > a > button {
   font-size: 1rem;
 }
 
@@ -121,15 +121,15 @@ button:active {
 
 /* FOOTER */
 
-footer.footer {
-  height: 30px;
-  font-size: 0.5rem;
-  color: #FFF;
-  letter-spacing: 1px;
-  font-style: italic;
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 30px;
+  font-size: 0.5rem;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #FFF;
   background: linear-gradient(-45deg, #b11010, #6b1f20, #462022, #212224);
   background-size: 400% 400%;
   animation: backgroundTransition 5s ease-in-out infinite;
