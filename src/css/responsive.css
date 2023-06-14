@@ -1,46 +1,19 @@
-/* RESPONSIVE */
+/* ABOUT */
 
-@media (max-width: 800px) {
-  .social-media {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .container {
-    margin-top: 0;
-  }
-
-  .card-container {
-    flex-direction: column;
-  }
-  .container .card-container:nth-child(1),
-  .container .card-container:nth-child(3) {
-    flex-direction: column-reverse;
-  }
-
-  .card {
-    height: 250px;
-    width: 250px;
-  }
-
-  .card-text {
+@media screen and (max-width: 480px) {
+  main.container__about-me {
     width: 90%;
-    margin-top: 2rem;
-    text-align: center;
   }
 
-  .card:hover > .card-wrapper::before {
-    height: 190px;
-    width: 190px;
+  section.about-me {
+    width: 100%;
   }
 
-  .social-media a:nth-child(1) {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
+  article.text h1.title {
+    font-size: 1.25rem;
   }
 
-  .social-media a:nth-child(2) {
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+  article.text p {
+    font-size: 0.875rem;
   }
 }
