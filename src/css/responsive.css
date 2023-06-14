@@ -1,5 +1,15 @@
 /* ABOUT */
 
+@media screen and (max-width: 768px) {
+  main.container__about-me {
+    margin: 1rem auto;
+  }
+  
+  article.text {
+    padding: 2rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   main.container__about-me {
     width: 90%;
