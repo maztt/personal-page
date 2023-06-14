@@ -37,7 +37,7 @@ main.container__about-me {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3rem auto 0;
+  margin: 3rem auto;
 }
 
 section.about-me {

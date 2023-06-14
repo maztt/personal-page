@@ -1,5 +1,33 @@
 /* ABOUT */
 
+@media screen and (max-width: 1279px) {
+  header nav {
+    margin: 2rem auto;
+  }
+
+  nav a.nav_back {
+    height: 1.25rem;
+  }
+
+  main.container__about-me {
+    margin: 1rem auto;
+  }
+
+  section.about-me {
+    width: 95%;
+    flex-direction: column;
+  }
+  
+  article.text {
+    padding: 2rem;
+  }
+
+  article.text p {
+    font-size: 0.9375rem;
+    margin-bottom: .8rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   main.container__about-me {
     margin: 1rem auto;
