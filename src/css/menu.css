@@ -4,6 +4,8 @@ header.header-wrapper {
   display: flex;
   height: 100vh;
   margin: auto;
+  justify-content: center;
+  align-items: center;
   color: #FFF;
   background: linear-gradient(-45deg, #b11010, #6b1f20, #462022, #212224);
   background-size: 400% 400%;
@@ -74,7 +76,6 @@ ul#social-media > li {
   display: flex;
   flex-direction: row;
 }
-
 
 ul#social-media > li > a > img {
   width: 100%;

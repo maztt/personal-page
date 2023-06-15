@@ -3,6 +3,7 @@ section.container__roles {
   margin: auto;
   width: 80%;
   justify-content: center;
+  align-items: center;
 }
 
 section.role-wrapper-left, section.role-wrapper-right {

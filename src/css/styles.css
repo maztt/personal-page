@@ -15,7 +15,6 @@ main.container__portfolio {
   height: auto;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
   margin: 3rem auto;
 }
