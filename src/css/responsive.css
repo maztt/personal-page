@@ -1,7 +1,7 @@
 /* ABOUT */
 
 @media screen and (max-width: 1279px) {
-  header nav {
+  header:not(.header-wrapper) nav {
     margin: 2rem auto;
   }
 
@@ -53,5 +53,54 @@
 
   article.text p {
     font-size: 0.875rem;
+  }
+}
+
+
+/* INDEX */
+
+@media screen and (max-width: 1279px) {
+  section.container__roles {
+    width: 90%;
+  }
+
+  section.role-wrapper-left, section.role-wrapper-right {
+    max-width: 550px;
+  }
+
+  section.container__roles img.maztt-avatar {
+    width: 150px; 
+  }
+
+  h1.role-title, p.role-description {
+    width: 90%;
+  }
+  
+  h1.role-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+
+  main.container__portfolio {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  article.portfolio__project {
+    padding: 3rem 0;
+  }
+
+  div.project-display {
+    width: 300px;
+    height: 200px;
+  }
+
+  div.project-info {
+    width: 60%;
+    letter-spacing: .5px;
+  }
+
+  p.project-description {
+    margin-bottom: 1.3rem;
   }
 }
