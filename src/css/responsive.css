@@ -78,7 +78,6 @@
   
   h1.role-title {
     font-size: 2.5rem;
-    text-transform: uppercase;
   }
 
   main.container__portfolio {
@@ -102,5 +101,55 @@
 
   p.project-description {
     margin-bottom: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section.role-wrapper-left, section.role-wrapper-right {
+    max-width: 300px;
+  }
+
+  section.container__roles img.maztt-avatar {
+    width: 100px; 
+  }
+
+  h1.role-title {
+    font-size: 1.5rem;
+  }
+
+  p.role-description {
+    font-size: 0.875rem;
+  }
+
+  article.portfolio__project {
+    padding: 1rem 0;
+  }
+
+  div.project-display {
+    width: 200px;
+    height: 300px;
+  }
+
+  div.project-info {
+    width: 50%;
+  }
+
+  h2.project-name {
+    font-size: 1.75rem;
+  }
+
+  p.project-description {
+    font-size: 0.875rem;
+    margin-bottom: 1.3rem;
+  }
+
+  div.project-details > a > button {
+    font-size: .8rem;
+  }
+  
+  button {
+    padding: .2rem 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
   }
 }
