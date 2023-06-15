@@ -153,3 +153,51 @@
     letter-spacing: 1px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  section.container__roles {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  section.role-wrapper-left, section.role-wrapper-right {
+    max-width: 300px;
+  }
+
+  section.container__roles img.maztt-avatar {
+    display: none;
+  }
+
+  h1.role-title {
+    font-size: 1.5rem;
+  }
+
+  p.role-description {
+    font-size: 0.875rem;
+  }
+
+  article.portfolio__project {
+    padding: 2rem 0;
+  }
+
+  div.project-display {
+    display: none;
+  }
+
+  div.project-info {
+    width: 90%;
+  }
+
+  h2.project-name {
+    font-size: 1.25rem;
+  }
+
+  p.project-description {
+    font-size: 0.725rem;
+    margin-bottom: 1rem;
+  }
+
+  div.project-details > a > button {
+    font-size: .6rem;
+  }
+}
