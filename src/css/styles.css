@@ -91,8 +91,19 @@ p.project-description {
   margin-bottom: 2rem;
 }
 
+div.project-details {
+  display: flex;
+  justify-content: space-between;
+}
+
 div.project-details > a > button {
   font-size: 1rem;
+}
+
+span.project-type {
+  color: #6b1f20;
+  font-weight: bold;
+  padding: .5rem 1rem;
 }
 
 button {
@@ -102,7 +113,7 @@ button {
   color: #FFF;
   background-color: #6b1f20;
   border: 1px solid #232232;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 button:hover {

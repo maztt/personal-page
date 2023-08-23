@@ -21,6 +21,7 @@ function showProjects(startIndex, endIndex, data) {
             <a href="${project.repo}" target="_blank"
               ><button>Details ...</button></a
             >
+            <span class="project-type">&gt ${project.type}</span>
           </div>
         </div>
         <div class="project-display">

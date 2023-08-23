@@ -4,69 +4,79 @@
     "description": "The home project solution for condo dwellers! Our user-friendly system is the perfect ally for those who need uncommon tools to make their DIY tasks a success. No need to break the bank buying tools when you can borrow them from your friendly neighbors! With our platform, connecting with fellow dwellers is a breeze, saving you time, money, and the hassle of searching for the right equipment. Bye to frustrating hardware store trips and Hello to a world of convenience and collaboration.",
     "repo": "https://github.com/maztt/condo-share",
     "site": "#",
-    "image": "https://imagizer.imageshack.com/v2/1255x642q50/924/FPbPdS.png" 
+    "image": "https://imagizer.imageshack.com/v2/1255x642q50/924/FPbPdS.png",
+    "type": "Fullstack"
   },
   { 
     "name": "Hi-Deas", 
     "description": "The world's largest unconventional ideas repository! Here, creativity knows no bounds. It captures and preserves the wildest, most unique concepts often overlooked by the mainstream. Explore the uncharted territories of innovation and discover hidden gems that could inspire your next big idea.",
     "repo": "https://github.com/maztt/hi-deas",
     "site": "#",
-    "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png" 
+    "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png",
+    "type": "Fullstack" 
   },
   { 
     "name": "Shadow Hero", 
     "description": "Say goodbye to frustrating CSS tweaking with Shadow Hero! This solution for efficient shadow customization allows you to explore multiple possibilities in no time. It's not just for shadow customization, but it also guides you through image filtering, eliminating the need for additional software. Bye to unproductive customizations and Hello to a seamless design process with Shadow Hero.",
     "repo": "https://github.com/maztt/shadow-hero",
     "site": "https://maztt.github.io/shadow-hero/",
-    "image": "https://imagizer.imageshack.com/v2/1375x699q50/923/bzF7VK.png" 
+    "image": "https://imagizer.imageshack.com/v2/1375x699q50/923/bzF7VK.png",
+    "type": "Frontend" 
   },
   { 
     "name": "terminimalist-bank", 
     "description": "Are you tired of clunky, cluttered banking interfaces that leave you feeling overwhelmed and frustrated? Say hello to Terminimalist Bank, the solution for tech-savvy individuals who value minimalism and efficiency. With its sleek and streamlined interface, you can effortlessly manage your finances using just a few simple commands. Whether you're a seasoned software developer or a minimalist at heart, this platform offers a refreshingly simple approach to banking.",
     "repo": "https://github.com/maztt/terminimalist-bank",
     "site": "#",
-    "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png" 
+    "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png",
+    "type": "Backend"
   },
   { 
     "name": "Monk Urug", 
     "description": "This project meets my personal need for mantras and inspiring phrases to navigate through life's chaos. They've helped me stay focused, chase my goals, and be more aware. Why not share this with others who may also benefit from it? Join me on this journey!",
     "repo": "https://github.com/maztt/monk-urug",
     "site": "https://maztt.github.io/monk-urug/",
-    "image": "https://imagizer.imageshack.com/v2/1375x626q50/923/B5t8jz.jpg" 
+    "image": "https://imagizer.imageshack.com/v2/1375x626q50/923/B5t8jz.jpg",
+    "type": "Frontend"
   },
   { 
     "name": "Yu Gi Oh! Memory Game", 
     "description": "Let's relive the magic of Yu-Gi-Oh! and our favorite characters. Join me on a trip down memory lane with a thrilling matching memory card game! Test your skills, challenge your memory, and create new memories to cherish for years to come. Are you up for the challenge? Let's dive in!",
     "repo": "https://github.com/maztt/yugioh-memory-game",
     "site": "https://maztt.github.io/yugioh-memory-game/",
-    "image": "https://imagizer.imageshack.com/v2/1375x626q70/923/ZMuBKh.jpg" 
+    "image": "https://imagizer.imageshack.com/v2/1375x626q70/923/ZMuBKh.jpg",
+    "type": "Frontend"
   },
   { 
     "name": "Coding Campaign", 
     "description": "This project connects anime idols with programming to make it less intimidating for beginners. Learn to code with ease by appreciating each language's unique qualities. Think of it as a game with a main story and side-quests. Dive into the wonderful world of programming and have fun!",
     "repo": "https://github.com/maztt/coding-campaign",
     "site": "https://maztt.github.io/coding-campaign/",
-    "image": "https://imagizer.imageshack.com/v2/1375x627q50/923/6gCm8X.jpg" 
+    "image": "https://imagizer.imageshack.com/v2/1375x627q50/923/6gCm8X.jpg",
+    "type": "Frontend"
   },
   { 
     "name": "world-cup-winner-2022", 
     "description": "Looking to satisfy your curiosity about which country will claim the prestigious title of 2022 World Cup winner? This fun and simple prediction algorithm takes into FIFA team statistics about ranking performances to determine the most likely contenders for the coveted trophy.",
     "repo": "https://github.com/maztt/world-cup-winner-2022",
     "site": "#",
-    "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png" 
+    "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png",
+    "type": "Backend"
   },
   { 
   "name": "api-countries-to-excel", 
   "description": "Looking for a simple, yet efficient solution to analyze and organize data from the famous API Countries? This algorithm takes the hassle out of data management by reading and modeling API Countries data, then exporting it to an easy-to-read Excel file.",
   "repo": "https://github.com/maztt/api-countries-to-excel",
   "site": "#",
-  "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png" 
+  "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png",
+  "type": "Backend"
   },
   { 
     "name": "Courses 'n' Stuff", 
     "description": "Yep! This is a reference to Ghosts 'n' Stuff by deadmau5. Why did I create this space, you ask? Simply put, I'm a lifelong learner, always on the lookout for new ways to challenge myself. With so many exciting opportunities to explore, I needed a place to store everything in one neat and tidy package. A lot of stuff in there.",
     "repo": "https://github.com/maztt/courses-and-stuff",
     "site": "#",
-    "image": "https://imagizer.imageshack.com/v2/1200x644q70/924/OyfXFT.jpg" 
+    "image": "https://imagizer.imageshack.com/v2/1200x644q70/924/OyfXFT.jpg",
+    "type": "Others"
   }  
 ]
