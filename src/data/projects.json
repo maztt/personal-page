@@ -12,7 +12,7 @@
     "description": "The world's largest unconventional ideas repository! Here, creativity knows no bounds. It captures and preserves the wildest, most unique concepts often overlooked by the mainstream. Explore the uncharted territories of innovation and discover hidden gems that could inspire your next big idea.",
     "repo": "https://github.com/maztt/hi-deas",
     "site": "#",
-    "image": "https://cdn.discordapp.com/attachments/998949773090508943/1144757930877530204/hi-deas.png",
+    "image": "https://cdn.discordapp.com/attachments/1145795450201440376/1157065166555459605/hi-deas.png?ex=65174068&is=6515eee8&hm=20f72e9cac7d41c1843bc795df52a6c1d1a93da4c42bc65c697aefeb0f62b687&",
     "type": "Fullstack" 
   },
   { 
@@ -70,6 +70,14 @@
   "site": "#",
   "image": "https://imagizer.imageshack.com/v2/641x642q70/924/L5RLtv.png",
   "type": "Backend"
+  },
+  { 
+  "name": "temp-late", 
+  "description": "Are you finding yourself taking too long to create your project documentation READMEs? Is this delay preventing you from confidently sharing your work with others? Don't let lateness hold you back, use temp-late as your projects README template now!",
+  "repo": "https://github.com/maztt/temp-late",
+  "site": "#",
+  "image": "https://cdn.discordapp.com/attachments/1145795450201440376/1157064568720347136/2875311.png?ex=65173fda&is=6515ee5a&hm=3b0f586b5118af2a0646f89dddf7e5d00b043911a6539175ddd3477b546e0f8f&",
+  "type": "Others"
   },
   { 
     "name": "Courses 'n' Stuff", 
